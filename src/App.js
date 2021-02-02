@@ -4,6 +4,10 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import Navbar from './Navbar';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Container from 'react-bootstrap/esm/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Row';
+
 
 
 
@@ -12,10 +16,9 @@ function App() {
     <Router>
       <Navbar />
     <div className="App">
-    
-    
+      
     <Switch>
-      <Route path="/" exact component={Home} />
+      <Route path="/" exact component={Home} /> 
       <Route path="/AboutMe" component={AboutMe} />
       <Route path="/Skills" component={Skills} />
       <Route path="/Contact" component={Contact} />
@@ -27,9 +30,23 @@ function App() {
 
 const Home = () => (
   <div>
-    <h1>
-      Home
-    </h1>
+    <Container>
+        <header>
+          <Row>
+            <Col sm={8}>
+              <h1>
+                Paola Bramlett <em> - web developer</em>
+              </h1>
+            </Col>
+            <Col sm={4}>
+              
+            </Col>
+            <Col sm>Web Design</Col>
+            <Col sm>Photography</Col>
+            <Col sm>React</Col>
+          </Row>
+        </header>
+      </Container> 
   </div>
 );
 

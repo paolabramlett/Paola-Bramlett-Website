@@ -8,9 +8,11 @@ function Navbar() {
     return (
         <div>
             <nav>
+                <Link  style={navStyle} to="/">
                 <h3>
-                    PB
+                    Paola Bramlett
                 </h3>
+                </Link>
                 <ul className="nav-links">
                     <Link style={navStyle} to="/AboutMe">
                         <li>
