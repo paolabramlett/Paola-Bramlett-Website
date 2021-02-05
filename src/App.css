@@ -4,6 +4,10 @@
   background-color: white;
 }
 
+a:Link {
+  text-decoration: none;
+}
+
 li {
   list-style: none;
 }
@@ -16,6 +20,7 @@ nav {
   background-color: rgb(63, 63, 63);
   color: white;
   padding-top: 10px;
+  
 }
 
 .nav-links {
@@ -24,6 +29,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   list-style: none;
+  text-decoration: none;
 }
 
 

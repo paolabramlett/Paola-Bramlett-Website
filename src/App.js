@@ -3,10 +3,12 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Navbar from './Navbar';
+import Experience from './Experience';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
 
 
 
@@ -38,12 +40,10 @@ const Home = () => (
                 Paola Bramlett <em> - web developer</em>
               </h1>
             </Col>
-            <Col sm={4}>
-              
+            <Col xs={6} md={4}>
+              <Image src="/images/IMG_2794.JPG" className="thumbnail mx-auto d-block" />
             </Col>
-            <Col sm>Web Design</Col>
-            <Col sm>Photography</Col>
-            <Col sm>React</Col>
+            <Experience />
           </Row>
         </header>
       </Container> 
