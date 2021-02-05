@@ -34,18 +34,41 @@ const Home = () => (
   <div>
     <Container>
         <header>
-          <Row>
-            <Col sm={8}>
+        <br />
               <h1>
                 Paola Bramlett <em> - web developer</em>
               </h1>
+              <br />
+          <Row xs={2} md={2}> 
+            <Col>
+              <Image src="/images/IMG_2794.JPG" className="rounded mw-100 float-left" />
             </Col>
-            <Col xs={6} md={4}>
-              <Image src="/images/IMG_2794.JPG" className="thumbnail mx-auto d-block" />
+            <Col>
+              <p>
+                <strong>Hello, everyone! My name is Paola Monserrat Vásquez Bramlett,
+                 aka Paola Bramlett.</strong> I am a mexican front end and React developer
+                  looking for some great projects to be a part of. 
+                  <br />
+                  <br />
+                  Recently graduated
+                   from SheCodes Front End Development and React Development.
+                    I'm a FilmSchool graduate who's been working in Social Media Marketing 
+                    for small to medium businesses, creating valuable video and image
+                     content for their social media platforms.
+                     <br />
+                     <br />
+                     <strong>I'm always willing to learn and I enjoy taking new challanges. </strong>
+              </p>
             </Col>
+            </Row>
+            </header>
+            <br />
+            <br />
+
             <Experience />
-          </Row>
-        </header>
+            <br />
+          
+        
       </Container> 
   </div>
 );
