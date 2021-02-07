@@ -15,7 +15,7 @@ export default function AboutMe() {
             <br />
             <br />
             
-            <Row>
+            <Row xs={1} md={2}>
             
             <Col md className="position-relative">
                 <img src="/images/paolados.PNG" className="mw-100" alt="Paola-Bramlett" fluid />
@@ -31,18 +31,25 @@ export default function AboutMe() {
             <br/>
                 about to move to Montreal to study and work.
             </h3>
+            <br />
+            
             </Col>      
             
             <Col md className="d-inline-block"> 
-            <br />
+            
             <br />
             <p>
                 I’m from a small fishing and surfing town in Mexico called Puerto Escondido,
                 I attended FilmSchool in Mexico City back in 2012 - 2015. Afterwards I specialized in
-                Social Media Marketing with the SoMe Academy back in 2016-2017. Since then, I’ve been working as a Freelance Community Manager and Content Creator for over 13 companies in the State of Oaxaca.
+                Social Media Marketing with the SoMe Academy back in 2016-2017. Since then, I’ve been working as a Freelance Community Manager and Content Creator for over 13 companies in the State of Oaxaca. 
+            </p>
+        
+            </Col>
+            <Col md className="d-inline-block"> 
+            <p>
             <br />
             <br />
-                Over the last 4 years I’ve learnt a lot about graphic design and the creation of content that helped companies achieve their goals. I’m always eager to learn more.
+            Over the last 4 years I’ve learnt a lot about graphic design and the creation of content that helped companies achieve their goals. I’m always eager to learn more.
             <br />
             <br />
                 <strong>Feel free to contact me for any project collaboration.</strong>

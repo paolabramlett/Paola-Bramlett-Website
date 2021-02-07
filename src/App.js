@@ -39,12 +39,15 @@ const Home = () => (
                 Paola Bramlett <em> - web developer</em>
               </h1>
               <br />
-          <Row xs={2} md={2}> 
+          <Row xs={1} md={2}> 
             <Col>
-              <Image src="/images/IMG_2794.JPG" className="rounded mw-100 float-left" />
+              <Image src="/images/IMG_2794.JPG" className="rounded mw-100 float-left" fluid />
             </Col>
             <Col>
+          
               <p>
+              <br />
+              <br />
                 <strong>Hello, everyone! My name is Paola Monserrat Vásquez Bramlett,
                  aka Paola Bramlett.</strong> I am a mexican front end and React developer
                   looking for some great projects to be a part of. 
