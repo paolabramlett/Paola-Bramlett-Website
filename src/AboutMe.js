@@ -1,5 +1,4 @@
 import React from "react";
-import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Row';
@@ -13,12 +12,15 @@ export default function AboutMe() {
             <h2>
                 About Me
             </h2>
-            <Card>
-                <Card.Body>This is some text within a card body.</Card.Body>
-            </Card>
+            <br />
+            <br />
+            
             <Row>
             
-            <Col clasName="col-xs-6">
+            <Col md className="position-relative bottom-50 end-0">
+                <img src="/images/paolados.PNG" className="mw-100" alt="Paola-Bramlett"/>
+            </Col>
+            <Col md className="d-inline-block ">
             <br />
             <br />
             <h3>
@@ -29,12 +31,9 @@ export default function AboutMe() {
             <br/>
                 about to move to Montreal to study and work.
             </h3>
-            </Col>
-            <Col className="col-xs-6">
-                <img src="/images/paolauno.PNG" className="mw-100"/>
-            </Col>
+            </Col>      
             
-            <Col sm={2}>
+            <Col md className="d-inline-block"> 
             <br />
             <br />
             <p>
@@ -48,10 +47,13 @@ export default function AboutMe() {
             <br />
                 <strong>Feel free to contact me for any project collaboration.</strong>
             </p>
+            <br />
+            <br />
             </Col>
-            <br />
-            <br />
+            
+            
             </Row>
+            
 
             
         </div>
