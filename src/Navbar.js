@@ -19,7 +19,7 @@ function Navbar() {
                 <ul className="nav-links">
                     <Link style={navStyle} to="/AboutMe">
                         <li>
-                            About Me
+                            About
                         </li>
                     </Link>
                     <Link style={navStyle} to="/Skills">
@@ -29,7 +29,7 @@ function Navbar() {
                     </Link>
                     <Link style={navStyle} to="/Contact">
                         <li>
-                            Contact Me
+                            Contact
                         </li>
                     </Link>
                     

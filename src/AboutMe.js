@@ -9,9 +9,9 @@ export default function AboutMe() {
         <div className="AboutMe">
             <br />
             <br />
-            <h2>
-                About Me
-            </h2>
+            <h1>
+                <strong>About Me</strong>
+            </h1>
             <br />
             <br />
             
