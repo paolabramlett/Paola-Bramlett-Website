@@ -2,6 +2,7 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Row';
+import Image from 'react-bootstrap/Image';
 
 export default function AboutMe() {
     return (
@@ -18,7 +19,7 @@ export default function AboutMe() {
             <Row xs={1} md={2}>
             
             <Col md className="position-relative">
-                <img src="/images/paolados.PNG" className="img-fluid" alt="Paola-Bramlett" />
+                <Image src="/images/paolados.PNG" fluid />
             </Col>
             <Col md className="d-inline-block">
             <br />
