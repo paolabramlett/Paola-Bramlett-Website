@@ -28,7 +28,7 @@ export default function Contact() {
                             <Form.Control type="email" placeholder="name@example.com" />
                         </Form.Group>
                         <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Messege</Form.Label>
+                            <Form.Label>Message</Form.Label>
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
                         <Button variant="primary" type="submit" className="mt-3">
