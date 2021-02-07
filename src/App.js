@@ -41,7 +41,7 @@ const Home = () => (
               <br />
           <Row xs={1} md={2}> 
             <Col>
-              <Image src="/images/IMG_2794.JPG" className="rounded mw-100 float-left" fluid />
+              <Image src="/images/IMG_2794.JPG" className="img-fluid" />
             </Col>
             <Col>
           

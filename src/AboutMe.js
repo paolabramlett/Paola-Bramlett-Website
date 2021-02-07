@@ -18,7 +18,7 @@ export default function AboutMe() {
             <Row xs={1} md={2}>
             
             <Col md className="position-relative">
-                <img src="/images/paolados.PNG" className="mw-100" alt="Paola-Bramlett" fluid />
+                <img src="/images/paolados.PNG" className="img-fluid" alt="Paola-Bramlett" />
             </Col>
             <Col md className="d-inline-block">
             <br />
