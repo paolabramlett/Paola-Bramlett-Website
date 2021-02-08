@@ -1,11 +1,12 @@
 .App {
-  margin: 25px;
+  margin: 10px;
+  padding-left: 20px;
   background-color: #423A51;
 }
 
 a:Link {
   text-decoration: none;
-  color: white;
+  
 }
 
 li {
@@ -31,11 +32,13 @@ nav {
 
 Image {
   max-width: 100%;
+  display: block;
+  margin: 0 auto;
   height: auto;
 }
 
 .nav-links {
-  width: 50%;
+  width: 30%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -81,7 +84,7 @@ h4 {
   text-align: center;
   font-weight: 800;
   font-family: 'Roboto', sans-serif;
-  color: #FDF9E6;
+  color: white;
 }
 
 col {

@@ -20,22 +20,8 @@ export default function Contact() {
                 </h4>
                 <br />
                 <br />
-                <Row>
-                    <Col>
-                    <Form className="p-3">
-                        <Form.Group controlId="exampleForm.ControlInput1">
-                            <Form.Label className="text-white">Email address</Form.Label>
-                            <Form.Control type="email" placeholder="name@example.com" />
-                        </Form.Group>
-                        <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Label className="text-white">Message</Form.Label>
-                            <Form.Control as="textarea" rows={3} />
-                        </Form.Group>
-                        <Button variant="primary" type="submit" className="mt-3">
-                            Submit
-                        </Button>
-                    </Form>
-                    </Col>
+                <Row xs={1} md={2}>
+                
                     <Col>
                         <h2>
                             Contact Info
@@ -55,6 +41,23 @@ export default function Contact() {
                             </li>
                         </ul>
                     </Col>
+                    
+                    <Col>
+                    <Form className="p-3">
+                        <Form.Group controlId="exampleForm.ControlInput1">
+                            <Form.Label className="text-white">Email address</Form.Label>
+                            <Form.Control type="email" placeholder="name@example.com" />
+                        </Form.Group>
+                        <Form.Group controlId="exampleForm.ControlTextarea1">
+                            <Form.Label className="text-white">Message</Form.Label>
+                            <Form.Control as="textarea" rows={3} />
+                        </Form.Group>
+                        <Button variant="primary" type="submit" className="mt-3">
+                            Submit
+                        </Button>
+                    </Form>
+                    </Col>
+                    
                 </Row>
             </Container>
         </div>
