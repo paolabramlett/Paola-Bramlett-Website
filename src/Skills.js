@@ -10,9 +10,9 @@ export default function Skills() {
             <Container>
             <br />
             <br />
-            <h2>
-                Skills
-            </h2>
+            <h1>
+                <strong>Skills</strong>
+            </h1>
             <br />
             <br />
             <p>

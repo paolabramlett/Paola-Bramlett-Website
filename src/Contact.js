@@ -24,11 +24,11 @@ export default function Contact() {
                     <Col>
                     <Form className="p-3">
                         <Form.Group controlId="exampleForm.ControlInput1">
-                            <Form.Label>Email address</Form.Label>
+                            <Form.Label className="text-white">Email address</Form.Label>
                             <Form.Control type="email" placeholder="name@example.com" />
                         </Form.Group>
                         <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Label>Message</Form.Label>
+                            <Form.Label className="text-white">Message</Form.Label>
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
                         <Button variant="primary" type="submit" className="mt-3">

@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: black;
+  background-color: #0D1321;
 }
 
 code {
@@ -11,5 +11,7 @@ code {
 footer {
   color: white;
   text-align: center;
-  font-size: 9px;
+  font-size: 10px;
+  background-color: #3A4D5F;
+  padding: 40px;
 }

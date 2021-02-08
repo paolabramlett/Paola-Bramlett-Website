@@ -5,13 +5,16 @@ import Col from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
 export default function AboutMe() {
+    const pStyle = {
+        textAlign: 'justify'
+      };
     return (
         <Container>
         <div className="AboutMe">
             <br />
             <br />
             <h1>
-                <strong>About Me</strong>
+                About Me
             </h1>
             <br />
             <br />
@@ -39,7 +42,7 @@ export default function AboutMe() {
             <Col md className="d-inline-block"> 
             
             <br />
-            <p>
+            <p style={pStyle}>
                 I’m from a small fishing and surfing town in Mexico called Puerto Escondido,
                 I attended FilmSchool in Mexico City back in 2012 - 2015. Afterwards I specialized in
                 Social Media Marketing with the SoMe Academy back in 2016-2017. Since then, I’ve been working as a Freelance Community Manager and Content Creator for over 13 companies in the State of Oaxaca. 
@@ -47,7 +50,7 @@ export default function AboutMe() {
         
             </Col>
             <Col md className="d-inline-block"> 
-            <p>
+            <p style={pStyle}>
             <br />
             <br />
             Over the last 4 years I’ve learnt a lot about graphic design and the creation of content that helped companies achieve their goals. I’m always eager to learn more.

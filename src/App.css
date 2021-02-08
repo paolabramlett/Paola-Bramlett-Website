@@ -1,7 +1,6 @@
 .App {
-  text-align: center;
-  margin: 30px;
-  background-color: white;
+  margin: 5px;
+  background-color: #0D1321;
 }
 
 a:Link {
@@ -10,6 +9,11 @@ a:Link {
 
 li {
   list-style: none;
+  color: #FDF9E6;
+}
+
+ul {
+  padding-left: 0;
 }
 
 nav {
@@ -17,9 +21,10 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: rgb(63, 63, 63);
-  color: white;
+  background-color: #3A4D5F;
+  color: #FDF9E6;
   padding-top: 10px;
+  font-size: 14px;
   
 }
 
@@ -37,15 +42,44 @@ Image {
   text-decoration: none;
 }
 
+.Experience_content {
+  font-size: 15px;
+  text-align: center;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FDF9E6;
+  text-align: center;
+}
+
 p {
   font-size: 14px;
   text-align: justify;
   line-height: 18px;
+  font-family: 'Roboto', sans-serif;
+  color: #FDF9E6;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #FDF9E6;
+  text-align: center;
 }
 
 h3 {
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  color: #FDF9E6;
+}
+
+h4 {
+  text-align: center;
   font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+  color: #FDF9E6;
 }
 
 col {

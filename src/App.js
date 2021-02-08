@@ -30,6 +30,10 @@ function App() {
   );
 }
 
+const pStyle = {
+  textAlign: 'justify'
+};
+
 const Home = () => (
   <div>
     <Container>
@@ -45,7 +49,7 @@ const Home = () => (
             </Col>
             <Col>
           
-              <p>
+              <p style={pStyle}>
               <br />
               <br />
                 <strong>Hello, everyone! My name is Paola Monserrat Vásquez Bramlett,
