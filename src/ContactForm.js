@@ -1,4 +1,5 @@
 import React from "react";
+import "./ContactForm.css";
 
 export default function ContactForm (){
     return (
@@ -8,16 +9,17 @@ export default function ContactForm (){
             method="post" 
             data-netlify="true"
             onSubmit="submit"
+            netlify
             >
                 <input type="hidden" name="form-name" value="contact v1" />
                 <div>
-                    <label>Name <br />
+                    <label>Name: <br />
                         <input type="text" name="first-name" />
                     </label>
                     <br />
                 </div>
                 <div>
-                    <label htmlFor="email">e-mail <br />
+                    <label htmlFor="email">e-mail: <br />
                     <input id="email" type="email" name="email" />
                     </label>
                     <br />
@@ -30,7 +32,7 @@ export default function ContactForm (){
                     <br />
                 </div>
 
-                <button variant="primary" type="submit" className="mt-3">Send</button>
+                <button type="submit">Send</button>
 
             </form>
         </div>
