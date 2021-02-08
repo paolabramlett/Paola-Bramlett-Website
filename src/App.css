@@ -1,15 +1,16 @@
 .App {
-  margin: 5px;
-  background-color: #0D1321;
+  margin: 25px;
+  background-color: #423A51;
 }
 
 a:Link {
   text-decoration: none;
+  color: white;
 }
 
 li {
   list-style: none;
-  color: #FDF9E6;
+  color: white;
 }
 
 ul {
@@ -21,8 +22,8 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 10vh;
-  background-color: #3A4D5F;
-  color: #FDF9E6;
+  background-color: #423A51;
+  color: white;
   padding-top: 10px;
   font-size: 14px;
   
@@ -40,6 +41,7 @@ Image {
   align-items: center;
   list-style: none;
   text-decoration: none;
+  color: white;
 }
 
 .Experience_content {
@@ -51,7 +53,7 @@ Image {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  color: #FDF9E6;
+  color: #E9BCBD;
   text-align: center;
 }
 
@@ -60,19 +62,19 @@ p {
   text-align: justify;
   line-height: 18px;
   font-family: 'Roboto', sans-serif;
-  color: #FDF9E6;
+  color: white;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
-  color: #FDF9E6;
+  color: white;
   text-align: center;
 }
 
 h3 {
   text-align: left;
   font-family: 'Montserrat', sans-serif;
-  color: #FDF9E6;
+  color: #E9BCBD;
 }
 
 h4 {
