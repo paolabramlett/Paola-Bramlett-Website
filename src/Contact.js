@@ -2,8 +2,6 @@ import React from "react";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Form from 'react-bootstrap/Form';
-import Button from 'react-bootstrap/Button';
 import "./Contact.css";
 import ContactForm from "./ContactForm";
 
@@ -44,22 +42,6 @@ export default function Contact() {
                     </Col>
                     <Col>
                     <ContactForm />
-                    </Col>
-                    
-                    <Col>
-                    <Form className="p-3">
-                        <Form.Group controlId="exampleForm.ControlInput1">
-                            <Form.Label className="text-white">Email address</Form.Label>
-                            <Form.Control type="email" placeholder="name@example.com" />
-                        </Form.Group>
-                        <Form.Group controlId="exampleForm.ControlTextarea1">
-                            <Form.Label className="text-white">Message</Form.Label>
-                            <Form.Control as="textarea" rows={3} />
-                        </Form.Group>
-                        <Button variant="primary" type="submit" className="mt-3">
-                            Send
-                        </Button>
-                    </Form>
                     </Col>
                     
                 </Row>

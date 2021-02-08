@@ -9,29 +9,29 @@ export default function ContactForm (){
             method="POST" 
             data-netlify="true"
             onSubmit="submit"
+            netlify
             >
                 <input type="hidden" name="form-name" value="contact-form" />
-                <div>
                     <label>Name: <br />
                         <input type="text" name="name" />
                     </label>
                     <br />
-                </div>
-                <div>
+              
+              
                     <label htmlFor="email">e-mail: <br />
-                    <input type="text" name="email" />
+                    <input type="email" name="email" />
                     </label>
                     <br />
-                </div>
+         
 
-                <div>
+             
                     <label> Message: <br /> 
                         <textarea name="message"></textarea>
                     </label>
                     <br />
-                </div>
+                
 
-                <button type="submit">Submit</button>
+                <button type="submit">Send</button>
 
             </form>
         </div>
