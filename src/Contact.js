@@ -5,6 +5,7 @@ import Col from 'react-bootstrap/Col';
 import Form from 'react-bootstrap/Form';
 import Button from 'react-bootstrap/Button';
 import "./Contact.css";
+import ContactForm from "./ContactForm";
 
 export default function Contact() {
     return (
@@ -40,6 +41,9 @@ export default function Contact() {
                                 <strong><a href="https://www.linkedin.com/in/paolabramlett/" target="_blank" rel="noreferrer">LinkedIn</a></strong>
                             </li>
                         </ul>
+                    </Col>
+                    <Col>
+                    <ContactForm />
                     </Col>
                     
                     <Col>

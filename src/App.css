@@ -42,7 +42,7 @@ Image {
 }
 
 .nav-links {
-  width: 80%;
+  width: 50%;
   display: flex;
   justify-content: space-around;
   align-items: center;
