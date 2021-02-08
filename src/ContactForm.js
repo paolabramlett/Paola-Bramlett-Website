@@ -12,7 +12,7 @@ export default function ContactForm (){
             >
                 <input type="hidden" name="form-name" value="contact-form" />
                 <div>
-                    <label>Name <br />
+                    <label>Name: <br />
                         <input type="text" name="name" />
                     </label>
                     <br />
