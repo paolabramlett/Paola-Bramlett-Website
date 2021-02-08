@@ -31,7 +31,7 @@ export default function AboutMe() {
                 Hi, I’m Paola.
             <br />
             <br />
-                A Mexican Front End and React Developer,
+                A Mexican Front End and React Developer and Content Creator
             <br/>
                 about to move to Montreal to study and work.
             </h3>
