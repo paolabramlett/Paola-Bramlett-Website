@@ -33,14 +33,14 @@ export default function ContactForm (){
                     </ul>
                 </Col>
                 <Col>
-                <ContactForm />
+                
                 </Col>
                 
                 <Col>
                 <Form name="contact v1" method="post" data-netlify="true" onSubmit="submit" className="p-3">
                     <input type="hidden" name="form-name" value="contact v1" />
                     <Form.Group controlId="exampleForm.ControlInput1">
-                        <Form.Label className="text-white">Email address</Form.Label>
+                        <Form.Label className="text-white">E-mail address</Form.Label>
                         <Form.Control type="email" placeholder="name@example.com" />
                     </Form.Group>
                     <Form.Group controlId="exampleForm.ControlTextarea1">
