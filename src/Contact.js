@@ -53,7 +53,7 @@ export default function Contact() {
                             <Form.Control as="textarea" rows={3} />
                         </Form.Group>
                         <Button variant="primary" type="submit" className="mt-3">
-                            Submit
+                            Send
                         </Button>
                     </Form>
                     </Col>

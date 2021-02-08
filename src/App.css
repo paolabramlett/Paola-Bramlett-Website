@@ -1,12 +1,16 @@
 .App {
   margin: 10px;
-  padding-left: 20px;
   background-color: #423A51;
 }
 
+.row {
+  margin-right: 0;
+ 
+  margin-left: 0;
+}
+
 a:Link {
-  text-decoration: none;
-  
+  text-decoration: none; 
 }
 
 li {
@@ -38,13 +42,14 @@ Image {
 }
 
 .nav-links {
-  width: 30%;
+  width: 80%;
   display: flex;
   justify-content: space-around;
   align-items: center;
   list-style: none;
   text-decoration: none;
   color: white;
+  padding-right: 5px;
 }
 
 .Experience_content {
