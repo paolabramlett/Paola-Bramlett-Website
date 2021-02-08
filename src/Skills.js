@@ -58,11 +58,7 @@ export default function Skills() {
                     <img src="/images/Logo-11.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
                 </Row>
-                 <Row>
-                    <Col>1 of 3</Col>
-                    <Col>2 of 3</Col>
-                    <Col>3 of 3</Col>
-                </Row>
+                 
             </Container>
         </div>
     )

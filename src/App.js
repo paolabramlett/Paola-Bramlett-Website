@@ -40,7 +40,7 @@ const Home = () => (
         <header>
         <br />
               <h1>
-                Paola Bramlett <em> - web developer</em>
+                Paola Bramlett
               </h1>
               <br />
           <Row xs={1} md={2}> 
