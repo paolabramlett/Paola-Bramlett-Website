@@ -39,6 +39,7 @@ const Home = () => (
     <Container>
         <header>
         <br />
+        <br />
               <h1>
                 Paola Bramlett <small><em> - web developer and content creator </em></small>
               </h1>
