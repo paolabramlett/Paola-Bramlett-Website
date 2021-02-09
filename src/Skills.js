@@ -40,6 +40,9 @@ export default function Skills() {
                     <img src="/images/Logo-05.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
                     <Col xs={6} md={4}>
+                    <img src="/images/Logos-12.png" alt="logo" className="mw-25 p-3" />                 
+                    </Col>
+                    <Col xs={6} md={4}>
                     <img src="/images/Logo-06.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
                     <Col xs={6} md={4}>

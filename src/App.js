@@ -71,8 +71,31 @@ const Home = () => (
             </header>
             <br />
             <br />
+            <br />
+            <br />
 
             <Experience />
+            <br />
+            <br />
+            <br />
+            <br />
+            <h1>
+              <em>"My main goal is to see YOU achieve YOUR VISION"</em>
+            </h1>
+            <br />
+            <br />
+            <br />
+            <AboutMe />
+            <br />
+            <br />
+            <br />
+            <Skills />
+            <br />
+            <br />
+            <br />
+            <Contact />
+            <br />
+            <br />
             <br />
           
         

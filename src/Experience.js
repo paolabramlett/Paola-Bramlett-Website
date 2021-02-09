@@ -78,17 +78,18 @@ export default function Experience() {
       </div>
     </div>
   </div>
+  <div className="col">
+    <div className="card">
+      <img src="/images/paolatres.JPG" className="card-img-top" alt="..."/>
+      <div className="card-body">
+        <h5 className="card-title">I'm also a musician!</h5>
+        <p className="card-text" style={pStyle}>Music has been one of my biggest passions and hobbies. You can find a couple of my songs on Spotify</p>
+        <a href="https://open.spotify.com/artist/0PbCM1PGIbVuduk94Yll5J?si=jJw4noFjS367Ytbq0cOu0g" target="_blank" rel="noreferrer" className="btn btn-primary">Go to Spotify</a>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-<br />
-<br />
-<br />
-<h1>
-  <em>"My main goal is to see YOU achieve YOUR VISION"</em>
-</h1>
-<br />
-<br />
         </div>
        
         
