@@ -40,31 +40,35 @@ const Home = () => (
         <header>
         <br />
               <h1>
-                Paola Bramlett
+                Paola Bramlett <small><em> - web developer and content creator </em></small>
               </h1>
               <br />
+              
           <Row xs={1} md={2}> 
             <Col>
               <Image src="/images/IMG_2794.JPG" fluid />
             </Col>
             <Col>
           
-              <p style={pStyle}>
+              <h3>
               <br />
               <br />
-                <strong>Hello, everyone! My name is Paola Monserrat Vásquez Bramlett,
-                 aka Paola Bramlett.</strong> I am a mexican front end and React developer
+                <strong>Hello, everyone!<br /> <br />My name is Paola Monserrat Vásquez Bramlett,
+                 <br /> <em>a.k.a.</em> Paola Bramlett.</strong>
+              </h3>   
+                 <p style={pStyle}>I am a mexican Front End and React developer
                   looking for some great projects to be a part of. 
                   <br />
                   <br />
-                  Recently graduated
-                   from SheCodes Front End Development and React Development.
+                  I recently graduated
+                   from SheCodes Front End Development and React Development workshops.
                     I'm a FilmSchool graduate who's been working in Social Media Marketing 
-                    for small to medium businesses, creating valuable video and image
-                     content for their social media platforms.
+                    for small and medium size businesses, creating valuable video and image
+                     content for their social media platforms. Learning and developing new
+                     abilities along the way. 
                      <br />
                      <br />
-                     <strong>I'm always willing to learn and I enjoy taking new challanges. </strong>
+                     <h3><strong>I'm always willing to learn and I enjoy taking new challanges. </strong></h3>
               </p>
             </Col>
             </Row>
