@@ -118,13 +118,13 @@ col {
 
 img{
   width: auto;
-  max-width: 100%;
+  min-width: 100%;
   height: auto;
-  max-height: 100%;
+  min-height: 100%;
 }
 
-Container {
-  max-width: 900px;
+container {
+  max-width: 100%;
 }
 
 
