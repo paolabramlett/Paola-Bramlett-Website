@@ -41,7 +41,7 @@ const h1Style = {
 
 
 const Home = () => (
-  <div>
+  
     <Container>
         <header>
         <br />
@@ -53,11 +53,11 @@ const Home = () => (
         <br />
             
               
-          <Row xs={1} md={1} lg={2}> 
-            <Col>
+          <Row xs={1} md={2} lg={2}> 
+            <Col md className="position-relative">
               <Image src="/images/IMG_2794-13.JPG" fluid />
             </Col>
-            <Col>
+            <Col md className="position-relative">
           
               <h3>
               <br />
@@ -98,7 +98,7 @@ const Home = () => (
           
         
       </Container> 
-  </div>
+  
 );
 
 export default App;

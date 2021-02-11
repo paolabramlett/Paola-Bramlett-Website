@@ -123,4 +123,8 @@ img{
   max-height: 100%;
 }
 
+Container {
+  max-width: 900px;
+}
+
 

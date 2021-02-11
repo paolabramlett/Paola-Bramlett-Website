@@ -11,14 +11,14 @@ export default function AboutMe() {
       };
     return (
         <Container>
-        <div className="AboutMe">
+        
             <br />
             <br />
             <AboutTitle />
             <br />
             <br />
             
-            <Row xs={1} md={2}>
+            <Row xs={1} md={2} lg={2}>
             
             <Col md className="position-relative">
                 <Image src="/images/paolados-13.jpg" fluid />
@@ -76,7 +76,7 @@ export default function AboutMe() {
             
 
             
-        </div>
+        
         </Container>
 
     );

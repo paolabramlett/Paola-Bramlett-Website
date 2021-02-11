@@ -7,7 +7,7 @@ import Experience from './Experience';
 
 export default function Skills() {
     return (
-        <div>
+        
             <Container>
             <br />
             <br />
@@ -67,6 +67,6 @@ export default function Skills() {
                 </Row>
                  
             </Container>
-        </div>
+        
     )
 }

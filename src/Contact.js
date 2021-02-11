@@ -7,7 +7,7 @@ import ContactForm from "./ContactForm";
 
 export default function Contact() {
     return (
-        <div>
+
             <Container>
             <br />
             <br />
@@ -46,6 +46,6 @@ export default function Contact() {
                     
                 </Row>
             </Container>
-        </div>
+        
     )
 }
