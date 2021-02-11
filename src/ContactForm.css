@@ -1,18 +1,18 @@
 form {
     color: white;
     margin-bottom: 50px;
-    display: block;
-    margin: 0 auto;
+    margin-left: 80px;
+    
 
 }
 
 input {
     border-radius: 4px;
-    width: 100%;
     padding: 5px 60px;
     margin: 10px 0;
     box-sizing: border-box;
-    border: 2px solid white;
+    border: 1px solid white;
+    
 }
 
 textarea {

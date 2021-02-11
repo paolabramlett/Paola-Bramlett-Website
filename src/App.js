@@ -55,7 +55,7 @@ const Home = () => (
               
           <Row xs={1} md={2}> 
             <Col>
-              <Image src="/images/IMG_2794.JPG" fluid />
+              <Image src="/images/IMG_2794-13.JPG" fluid />
             </Col>
             <Col>
           
@@ -72,12 +72,12 @@ const Home = () => (
                   I recently graduated
                    from SheCodes Front End Development and React Development workshops.
                     I'm a FilmSchool graduate who's been working in Social Media Marketing 
-                    for small and medium size businesses, creating valuable video and image
-                     content for their social media platforms. Learning and developing new
+                    for small and medium size businesses over the last 4 years. Creating valuable video, audio and image
+                     content for social media platforms. Discovering and developing new
                      abilities along the way. 
                      <br />
                      <br />
-                     <h3><strong>I'm always willing to learn and I enjoy taking new challanges. </strong></h3>
+                     <h3><strong>I'm passionate about learning and I always enjoy taking on new challanges. </strong></h3>
               </p>
             </Col>
             </Row>

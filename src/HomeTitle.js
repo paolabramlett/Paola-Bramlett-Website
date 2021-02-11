@@ -4,7 +4,8 @@ import './HomeTitle.css';
 export default function HomeTitle() {
     const spanStyle={
         fontSize:'21px',
-        fontWeight: '100'
+        fontWeight: 'lighter',
+        color: 'white'
     }
     return (
         <h1 className="home-title">

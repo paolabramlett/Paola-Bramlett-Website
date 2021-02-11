@@ -14,8 +14,10 @@ export default function Experience() {
     <div className="card text-center bg-transparent border-white">
       <img src="/images/coding.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
-        <h5 className="card-title">Front End Development</h5>
-        <p className="card-text" >Recently graduated as a Front End and React Developer. I've been doing some freelance work. I recently developed a weather app and I made a digital menu for a restaurant</p>
+        <h5 className="card-title">React Front-End Development</h5>
+        <p className="card-text" > Earlier this year, I challanged myself to learn coding. I took a Front-End Development and a React Development Workshop and since then I've been coding and designing nonstop.
+        I found a passion towards the world of coding. It's been challanging but also super rewarding.
+        I've been doing some freelance work since the moment I graduated and I hope I get to continue on this path.</p>
       </div>
     </div>
   </div>
@@ -24,7 +26,8 @@ export default function Experience() {
       <img src="/images/social-media.png" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Social Media Marketing</h5>
-        <p className="card-text" >For the las 4 years, I've been doing some freelance social media marketing work with over 10 companies in the state of Oaxaca, Mexico.</p>
+        <p className="card-text" >Over the last 4 years, I've been doing Freelance Social Media Marketing work with over 13 companies in the state of Oaxaca, Mexico.
+        Thanks to that, I've developed sevral new abilities creating valuable content for medium size businesses' accounts, helping them achieve their marketing goals.</p>
       </div>
     </div>
   </div>
@@ -33,7 +36,8 @@ export default function Experience() {
       <img src="/images/graphicdesign.JPG" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Graphic Design</h5>
-        <p className="card-text" >Also, I do several graphic design work for those companies to help the create a more professional advertising</p>
+        <p className="card-text" >Also, I've been doing several Graphic Design work for those companies to help the create a more professional advertising that they can use 
+        on their Social Media accounts and on the real world.</p>
       </div>
     </div>
   </div>
@@ -42,7 +46,8 @@ export default function Experience() {
       <img src="/images/IMG_4357.JPG" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Photography</h5>
-        <p className="card-text" >As I graduated from Filmschool, I found a passion towards photgraphy. I enjoy taking photos of landscapes, buildings and portraits</p>
+        <p className="card-text" >As I graduated from Filmschool, I found a passion towards photgraphy. I enjoy taking photos of landscapes, buildings and portraits, but also, it has been
+        extremely helpful while shooting pictures of products and services for my clients to better portray their essence.</p>
       </div>
     </div>
   </div>
@@ -51,7 +56,7 @@ export default function Experience() {
       <img src="/images/video.jpg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Video Production</h5>
-        <p className="card-text" >In addition to that, I've focused my attention in the creation of engaging video content for advertising and social media marketing</p>
+        <p className="card-text" >In addition to that, I've focused my attention in the creation of engaging video content for advertising and social media marketing.</p>
       </div>
     </div>
   </div>
@@ -60,7 +65,7 @@ export default function Experience() {
       <img src="/images/after.png" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Animation</h5>
-        <p className="card-text">Using different apps to ensure the creation of captivating content, like After Effects for animation</p>
+        <p className="card-text">Using different apps to ensure the creation of captivating content, like After Effects for animation.</p>
       </div>
     </div>
   </div>
@@ -69,7 +74,7 @@ export default function Experience() {
       <img src="/images/Logic.jpeg" className="card-img-top" alt="..."/>
       <div className="card-body">
         <h5 className="card-title">Audio Production</h5>
-        <p className="card-text">I've also produced multi-track audio lessons with logic pro X for coaching and leadership companies</p>
+        <p className="card-text">I've also produced multi-track audio lessons with logic pro X for a coaching and leadership company</p>
       </div>
     </div>
   </div>

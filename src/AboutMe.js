@@ -21,7 +21,7 @@ export default function AboutMe() {
             <Row xs={1} md={2}>
             
             <Col md className="position-relative">
-                <Image src="/images/paolados.PNG" fluid />
+                <Image src="/images/paolados-13.jpg" fluid />
             </Col>
             <Col md className="d-inline-block">
             <br />
@@ -30,9 +30,13 @@ export default function AboutMe() {
                 Hi, I’m Paola.
             <br />
             <br />
-                A Mexican Front End and React Developer and Content Creator
+                A Mexican React Front-End Developer 
+            <br/>    
+                and Content Creator
             <br/>
-                about to move to Montreal to study and work.
+                about to move to Montreal
+            <br />   
+                to study and work.
             </h3>
             <br />
             
@@ -44,18 +48,24 @@ export default function AboutMe() {
             <p style={pStyle}>
                 I’m from a small fishing and surfing town in Mexico called Puerto Escondido,
                 I attended FilmSchool in Mexico City back in 2012 - 2015. Afterwards I specialized in
-                Social Media Marketing with the SoMe Academy back in 2016-2017. Since then, I’ve been working as a Freelance Community Manager and Content Creator for over 13 companies in the State of Oaxaca. 
+                Social Media Marketing with the SoMe Academy back in 2016-2017. Since then, I’ve been working as a Freelance Community Manager and Content Creator. 
+            <br />
+            <br />
+            I started my own studio so I could collaborate with other creators and enhance creativity by sharing ideas and points of view, and help others learn different
+             things we've all learned through experience.
             </p>
         
             </Col>
             <Col md className="d-inline-block"> 
             <p style={pStyle}>
+            <br />          
+            Over the last 4 years I’ve learned a lot about graphic design and the creation of content that helped companies achieve their advertising goals. 
+            I've connected with the vision of over 13 companies in the State of Oaxaca, Mexico. I'm always learning and growing, and I enjoy discovering new places 
+            and projects. That's why I've chosen to study and work in Montreal, Canada for the next 2 years, so I can meet new people to collaborate with, and hopefully 
+            find a vision to connect and align my own with.
             <br />
             <br />
-            Over the last 4 years I’ve learnt a lot about graphic design and the creation of content that helped companies achieve their goals. I’m always eager to learn more.
-            <br />
-            <br />
-                <strong>Feel free to contact me for any project collaboration.</strong>
+                <strong>Feel free to <a href="/Contact">contact me </a> for any future collaboration.</strong>
             </p>
             <br />
             <br />
