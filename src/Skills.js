@@ -27,7 +27,7 @@ export default function Skills() {
                 <br />
                 <br />
             </p>
-                <Row className="md-center mw-90">
+                <Row className="row row-cols-lg-auto g-3 align-items-center">
                     <Col xs={6} md={4}>
                     <img src="/images/Logo-01.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
