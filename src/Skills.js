@@ -27,41 +27,41 @@ export default function Skills() {
                 <br />
                 <br />
             </p>
-                <Row className="row row-cols-lg-auto g-3 align-items-center">
-                    <Col xs={6} md={4}>
+                <Row className="row row-cols-xs-auto g-3 align-items-center">
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-01.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-02.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-03.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-04.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-05.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logos-12.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-06.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-07.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-08.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-09.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-10.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
-                    <Col xs={6} md={4}>
+                    <Col xs={6} md={4} md className="d-inline-block">
                     <img src="/images/Logo-11.png" alt="logo" className="mw-25 p-3" />                 
                     </Col>
                 </Row>
