@@ -34,6 +34,10 @@ const pStyle = {
   textAlign: 'justify'
 };
 
+const h1Style = {
+  color: 'white'
+};
+
 
 
 const Home = () => (
@@ -83,8 +87,8 @@ const Home = () => (
             <br />
             <br />
             <br />
-            <h1>
-              <em>"My main goal is to see YOU achieve YOUR VISION"</em>
+            <h1 style={h1Style}>
+              <em>"My main goal is to see YOU achieve YOURS"</em>
             </h1>
             <br />
             <br />
