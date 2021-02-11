@@ -3,6 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
+import AboutTitle from './AboutTitle';
 
 export default function AboutMe() {
     const pStyle = {
@@ -13,9 +14,7 @@ export default function AboutMe() {
         <div className="AboutMe">
             <br />
             <br />
-            <h1>
-                About Me
-            </h1>
+            <AboutTitle />
             <br />
             <br />
             

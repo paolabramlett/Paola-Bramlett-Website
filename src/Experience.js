@@ -1,13 +1,12 @@
 import React from "react";
 import './Experience.css'
+import ProjectsTitle from './ProjectsTitle';
 
 export default function Experience() {
     return (
         <div>
             <br />
-            <h1>
-                Projects Overview
-            </h1>
+            <ProjectsTitle />
             <br />
             <br />
             <div className="row row-cols-1 row-cols-md-2 g-4">

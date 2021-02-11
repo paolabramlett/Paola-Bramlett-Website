@@ -9,7 +9,7 @@
     --bg-color: #423A51;
 }
 
-.home-title body {
+.about-title body {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,14 +26,14 @@ h1{
 }
 
 /* title styles */
-.home-title span{
+.about-title span{
     position: relative;
     overflow: hidden;
     display: block;
     line-height: 1.2;
 }
 
-.home-title span::after{
+.about-title span::after{
     content: '';
     position: absolute;
     top: 0;
@@ -45,7 +45,7 @@ h1{
     transform: translateX(-101%);
 }
 
-.home-title span::before{
+.about-title span::before{
     content: '';
     position: absolute;
     top: 0;
@@ -57,13 +57,13 @@ h1{
     transform: translateX(0);
 }
 
-.home-title span:nth-of-type(1)::before,
-.home-title span:nth-of-type(1)::after{
+.about-title span:nth-of-type(1)::before,
+.about-title span:nth-of-type(1)::after{
     animation-delay: 1s;
 }
 
-.home-title span:nth-of-type(2)::before,
-.home-title span:nth-of-type(2)::after{
+.about-title span:nth-of-type(2)::before,
+.about-title span:nth-of-type(2)::after{
     animation-delay: 1.5s;
 }
 
