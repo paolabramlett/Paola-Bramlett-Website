@@ -53,7 +53,7 @@ const Home = () => (
         <br />
             
               
-          <Row xs={1} md={2}> 
+          <Row xs={1} md={1} lg={2}> 
             <Col>
               <Image src="/images/IMG_2794-13.JPG" fluid />
             </Col>
