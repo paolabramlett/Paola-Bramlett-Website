@@ -5,13 +5,14 @@ export default function ContactForm (){
     return (
         <div>
             <form 
-            name="contact-form" 
+            name="contact" 
             method="POST" 
             data-netlify="true"
             onSubmit="submit"
+            action='/contact'
             netlify
             >
-                <input type="hidden" name="form-name" value="contact-form" />
+                <input type="hidden" name="form-name" value="contact" />
                     <label>Name: <br />
                         <input type="text" name="name" />
                     </label>
