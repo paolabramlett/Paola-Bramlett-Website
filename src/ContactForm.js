@@ -11,7 +11,7 @@ export default function ContactForm (){
             onSubmit="submit"
             netlify
             >
-                <input type="hidden" name="form-name" value="contact" />
+                <input type="hidden" name="form-name" value="contact-form" />
                     <label>Name: <br />
                         <input type="text" name="name" />
                     </label>
