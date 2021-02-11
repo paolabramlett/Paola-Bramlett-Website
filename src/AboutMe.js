@@ -20,7 +20,7 @@ export default function AboutMe() {
             
             <Row xs={1} md={2} lg={2} className="row row-cols-xs-auto g-3 align-items-center">
             
-            <Col md className="position-relative">
+            <Col md className="d-inline-block">
                 <Image src="/images/paolados-13.jpg" fluid />
             </Col>
             <Col md className="d-inline-block">
