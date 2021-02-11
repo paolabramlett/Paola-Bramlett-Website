@@ -3,7 +3,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Navbar from './Navbar';
-import Experience from './Experience';
+import HomeTitle from './HomeTitle';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/Row';
@@ -34,16 +34,20 @@ const pStyle = {
   textAlign: 'justify'
 };
 
+
+
 const Home = () => (
   <div>
     <Container>
         <header>
         <br />
         <br />
-              <h1>
-                Paola Bramlett <small><em> - web developer and content creator </em></small>
-              </h1>
-              <br />
+              
+              <HomeTitle />    
+        <br />
+        <br />  
+        <br />
+            
               
           <Row xs={1} md={2}> 
             <Col>
@@ -74,12 +78,7 @@ const Home = () => (
             </Col>
             </Row>
             </header>
-            <br />
-            <br />
-            <br />
-            <br />
-
-            <Experience />
+            
             <br />
             <br />
             <br />
@@ -90,18 +89,8 @@ const Home = () => (
             <br />
             <br />
             <br />
-            <AboutMe />
             <br />
-            <br />
-            <br />
-            <Skills />
-            <br />
-            <br />
-            <br />
-            <Contact />
-            <br />
-            <br />
-            <br />
+          
           
         
       </Container> 
