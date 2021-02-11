@@ -55,7 +55,7 @@ const Home = () => (
               
           <Row xs={1} md={2} lg={2} className="row row-cols-xs-auto g-3 align-items-center"> 
             <Col md className="position-relative">
-              <Image src="/images/IMG_2794-13.JPG" fluid />
+              <Image src="/images/IMG_2794-13.png" fluid />
             </Col>
             <Col md className="position-relative">
           
