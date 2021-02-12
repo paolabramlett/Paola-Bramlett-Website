@@ -44,7 +44,7 @@ export default function AboutMe() {
             
             <Col md className="d-inline-block"> 
             
-            <br />
+            
             <p style={pStyle}>
                 I’m from a small fishing and surfing town in Mexico called Puerto Escondido,
                 I attended FilmSchool in Mexico City back in 2012 - 2015. Afterwards I specialized in
