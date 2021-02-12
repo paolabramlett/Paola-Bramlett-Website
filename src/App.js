@@ -34,8 +34,12 @@ const pStyle = {
   textAlign: 'justify'
 };
 
-const h1Style = {
-  color: 'white'
+const h2Style = {
+  color: 'white',
+  maxWidth: '400px',
+  textAlign: 'left',
+  paddingLeft: '30px'
+ 
 };
 
 
@@ -87,9 +91,12 @@ const Home = () => (
             <br />
             <br />
             <br />
-            <h1 style={h1Style}>
-              <em>"My main goal is to see YOU achieve YOURS"</em>
-            </h1>
+            <h2 style={h2Style}>
+              <em>"Let's do what we love and do a lot of it" </em>
+              <br />
+              <br />
+              <span>- Marc Jacobs.</span>
+            </h2>
             <br />
             <br />
             <br />
